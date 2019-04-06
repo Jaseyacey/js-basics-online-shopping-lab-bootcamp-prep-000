@@ -94,15 +94,6 @@ function removeItemFromCart(itemToRemove) {
   getCart().splice(indexOfItemToRemove,1)
 }
 
-addToCart('toy');
-addToCart('toy2');
-addToCart('toy3');
-viewCart();
-total();
-removeFromCart('toy2')
-viewCart()
-total()
-placeOrder(1234)
 
 var cart = [];
 
